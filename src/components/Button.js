@@ -5,10 +5,10 @@ const Buttons = ({onCreate, onRemove}) => {
     return (
         <div className="Buttons">
             <div className="btn add" onClick={onCreate}>
-                생성
+                create
             </div>
             <div className="btn remove" onClick={onRemove}>
-                제거
+                remove
             </div>
         </div>
     );
